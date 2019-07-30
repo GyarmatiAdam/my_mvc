@@ -1,5 +1,5 @@
 <?php
-include 'controller/dbcontroller.php';
+// include 'controller/dbcontroller.php';
 ?>
 <!doctype html>
 <html lang="en">
@@ -20,6 +20,7 @@ include 'controller/dbcontroller.php';
 
             </div>
             <div class="col-sm-8">
+            <?php include('view/content_insert.php'); ?>
             <?php include('view/content.php'); ?>
             </div>
             <div class="col-sm-2">
